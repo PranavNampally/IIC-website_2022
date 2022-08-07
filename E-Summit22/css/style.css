@@ -1221,6 +1221,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #buy-tickets .card {
   border: none;
   border-radius: 5px;
+  margin-bottom: 2vh !important;
   transition: all  0.3s ease-in-out;
   box-shadow: 0 10px 25px 0 rgba(6, 12, 34, 0.1);
 }
@@ -1275,7 +1276,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   background-color: #f82249;
   border: 0;
   color: #fff;
-  margin-bottom:5px;
+  margin-bottom:2px;
 
 }
 
@@ -1581,7 +1582,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 @media (min-width:320px)  { /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */ 
   #buy-tickets .card-body{
-    height:87vh !important;
+    height:52vh !important;
     padding:1.25rem;
   }
   #buy-tickets .card-div-title{
@@ -1592,15 +1593,81 @@ body.mobile-nav-active #mobile-nav-toggle {
     font-size:30px !important;
   }
   #buy-tickets .card-text{
-    height:40vh;
+    height:20vh;
     padding:auto;
     font-size: 15px;
   }
 }
 
-@media (min-width:360px)  { /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */ 
+@media (min-width:359px)  { /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */ 
   #buy-tickets .card-body{
-    height:75vh !important;
+    height:65vh !important;
+    padding:1.25rem;
+  }
+  #buy-tickets .card-div-title{
+    height:8vh;
+    padding:1rem auto !important;
+  }
+  #buy-tickets .card .card-price{
+    font-size:30px !important;
+  }
+  /* #buy-tickets .card hr{
+    margin-top: 50px !important;
+  } */
+  #buy-tickets .card-text{
+    height:25vh;
+    padding:auto;
+    font-size: 15px;
+  }
+}
+
+@media (min-width:374px)  { /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */ 
+  #buy-tickets .card-body{
+    height:60vh !important;
+    padding:1.25rem;
+  }
+  #buy-tickets .card-div-title{
+    height:8vh;
+    padding:1rem auto !important;
+  }
+  #buy-tickets .card .card-price{
+    font-size:30px !important;
+  }
+  /* #buy-tickets .card hr{
+    margin-top: 50px !important;
+  } */
+  #buy-tickets .card-text{
+    height:25vh;
+    padding:auto;
+    font-size: 15px;
+  }
+}
+
+@media (min-width:389px)  { /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */ 
+  #buy-tickets .card-body{
+    height:50vh !important;
+    padding:1.25rem;
+  }
+  #buy-tickets .card-div-title{
+    height:8vh;
+    padding:1rem auto !important;
+  }
+  #buy-tickets .card .card-price{
+    font-size:30px !important;
+  }
+  #buy-tickets .card hr{
+    margin-top: 50px !important;
+  }
+  #buy-tickets .card-text{
+    height:15vh;
+    padding:auto;
+    font-size: 15px;
+  }
+}
+
+@media (min-width: 539px) {
+  #buy-tickets .card-body{
+    height:50vh !important;
     padding:1.25rem;
   }
   #buy-tickets .card-div-title{
@@ -1611,9 +1678,9 @@ body.mobile-nav-active #mobile-nav-toggle {
     font-size:30px !important;
   }
   #buy-tickets .card-text{
-    height:36vh;
+    height:10vh;
     padding:auto;
-    font-size: 18px;
+    font-size: 15px;
   }
 }
 
@@ -1623,7 +1690,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   }
 
   #buy-tickets .card-body{
-    height:50vh !important;
+    height:30vh !important;
     padding:1.25rem;
   }
   #buy-tickets .card-div-title{
@@ -1634,15 +1701,37 @@ body.mobile-nav-active #mobile-nav-toggle {
     font-size:50px !important;
   }
   #buy-tickets .card-text{
-    height:20vh;
+    height:10vh;
     padding:auto;
     font-size: 24px;
   }
 }
 
+@media (min-width: 767px) {
+  #buy-tickets .card-body{
+    height:50vh !important;
+    padding:1.25rem;
+  }
+  #buy-tickets .card-div-title{
+    height:8vh;
+    padding:1rem auto !important;
+  }
+  #buy-tickets .card .card-price{
+    font-size:30px !important;
+  }
+  #buy-tickets .card hr{
+    margin-top: 50px !important;
+  }
+  #buy-tickets .card-text{
+    height:15vh;
+    padding:auto;
+    font-size: 22px;
+  }
+}
+
 @media (min-width: 801px) {
   #buy-tickets .card-body{
-    height:68vh !important;
+    height:40vh !important;
     padding:1.25rem;
   }
   #buy-tickets .card .card-price {
@@ -1655,7 +1744,28 @@ body.mobile-nav-active #mobile-nav-toggle {
     padding:1rem auto !important;
   }
   #buy-tickets .card-text{
-    height:40vh;
+    height:10vh;
+    padding:auto;
+    font-size:18px;
+  }
+}
+
+@media (min-width: 1023px) {
+  #buy-tickets .card-body{
+    height:60vh !important;
+    padding:1.25rem;
+  }
+  #buy-tickets .card .card-price {
+    font-size: 40px !important;
+    margin: 0;
+  }
+  
+  #buy-tickets .card-div-title{
+    height:10vh;
+    padding:1rem auto !important;
+  }
+  #buy-tickets .card-text{
+    height:10vh;
     padding:auto;
     font-size:18px;
   }
@@ -1674,12 +1784,15 @@ body.mobile-nav-active #mobile-nav-toggle {
     background-attachment: fixed;
   }
   #buy-tickets .card-body{
-    height:80vh !important;
+    height:55vh !important;
     padding:1.25rem;
+  }
+  #buy-tickets .card hr{
+    margin-top: 30px !important;
   }
   #buy-tickets .card .card-price {
     font-size: 30px !important;
-    margin: 0;
+    margin: 2vh;
   }
   
   #buy-tickets .card-div-title{
@@ -1687,7 +1800,7 @@ body.mobile-nav-active #mobile-nav-toggle {
     padding:1rem auto !important;
   }
   #buy-tickets .card-text{
-    height:40vh;
+    height:10vh;
     padding:auto;
     font-size:16px;
   }
